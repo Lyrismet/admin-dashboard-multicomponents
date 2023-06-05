@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, NavLink} from "react-router-dom";
-import {SiShopware} from "react-icons/si";
+import {SiCashapp, SiShopware} from "react-icons/si";
 import {MdOutlineCancel} from "react-icons/md";
 import {TooltipComponent} from '@syncfusion/ej2-react-popups';
 
@@ -20,7 +20,7 @@ const Sidebar = () => {
                     <div className="flex justify-between items-center">
                         <Link to="/" onClick={() => setActiveMenu(false)}
                               className="items-center gap-3 ml-3 mt-4 flex text-x1 font-extrabold tracking-tight dark:text-white text-slate-900">
-                            <SiShopware className="text-3x1"/> <span>Shopper's Hub</span>
+                            <SiCashapp className="text-3x1"/> <span>Shopper's Hub</span>
                         </Link>
                         <TooltipComponent content="Menu" position="BottomCenter">
                             <button type="button" onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)}
