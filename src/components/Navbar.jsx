@@ -43,6 +43,12 @@ const Navbar = () => {
                            color="blue"
                            icon={<BsChatLeft/>}
                 />
+                <NavButton title="Notifications"
+                           dotColor="#03C9D7"
+                           customFunc={() => handleClick('cart')}
+                           color="blue"
+                           icon={<BsChatLeft/>}
+                />
             </div>
         </div>
     );
