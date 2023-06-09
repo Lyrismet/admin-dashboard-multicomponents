@@ -45,8 +45,7 @@ const Sidebar = () => {
                                     <NavLink
                                         to={`/${link.name}`}
                                         key={link.name}
-                                        onClick={() => {
-                                        }}
+                                        onClick={handleCloseSideBar}
                                         className={({isActive}) => isActive ? activeLink : normalLink}>
                                         {link.icon}
                                         <span className="capitalize">
