@@ -208,7 +208,19 @@ const ECommerce = () => {
             </div>
           </div>
         </div>
+        <div className="flex flex-wrap justify-center">
+          <div className="md:w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+            <div className="flex justify-between">
+              <p className="text-xl font-semibold">Weekly Stats</p>
+              <button type="button" className="text-xl font-semibold text-gray-500">
+                <IoIosMore />
+              </button>
+            </div>
+            <div className="mt-10 ">
 
+            </div>
+          </div>
+        </div>
 
 
 
