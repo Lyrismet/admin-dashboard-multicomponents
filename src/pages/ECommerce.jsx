@@ -295,7 +295,11 @@ const ECommerce = () => {
               <p className="text-gray-400 text-sm">36 Recent Transactions</p>
             </div>
           </div>
-
+          <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+            <div className="flex justify-between">
+              <p className="text-xl font-semibold">Daily Activities</p>
+            </div>
+          </div>
         </div>
 
 
