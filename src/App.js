@@ -90,7 +90,7 @@ const App = () => {
 
                             <Routes>
                                 {/* dashboard  */}
-                                <Route path="/" element={(<ECommerce/>)}/>
+                                <Route path="/admin-dashboard-multicomponents" element={(<ECommerce/>)}/>
                                 <Route path="/ecommerce" element={(<ECommerce/>)}/>
 
                                 {/* pages  */}
